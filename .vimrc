@@ -1,3 +1,15 @@
+" 최초 vimrc 설정시 plugin manager install commands
+"
+" VimPlug
+"
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+" Vundle
+"
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+
 "map <f7> :w<Enter>:!perl % <CR>
 "theme
 colorscheme CodeSchool3 
