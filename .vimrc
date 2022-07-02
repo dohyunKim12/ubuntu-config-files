@@ -12,8 +12,7 @@
 
 "map <f7> :w<Enter>:!perl % <CR>
 "theme
-colorscheme CodeSchool3 
-set termguicolors
+colorscheme torte
 
 "for yaml editing
 set expandtab autoindent
@@ -131,3 +130,5 @@ let g:indentguides_ignorelist = [] " IndentGuide를 원치 않는 파일이 있�
 let g:indentguides_spacechar = '┆'  "space를 표시하는 문자를 다르게 지정 해줄 수 있습니다. 
 let g:indentguides_tabchar = '|' "tab을 표시하는 문자를 다르게 지정 해줄 수 있습니다.
 
+"PluginInstall
+"PlugInstall
