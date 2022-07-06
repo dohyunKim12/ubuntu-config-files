@@ -1,4 +1,6 @@
 # 깃의 사용자별 설정 파일입니다.
+# /etc/gitconfig (in Linux)
+# ~/.gitconfig   (in Windows)
 [user]
 	name = dohyunkim
 	email = kdh951102@gmail.com
