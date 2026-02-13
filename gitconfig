@@ -6,9 +6,9 @@
 	email = kdh951102@gmail.com
 
 [diff]
-	tool = default-difftool
-[difftool "default-difftool"]
-    cmd = code --wait --diff $LOCAL $REMOTE
+	tool = intellij
+[difftool "intellij"]
+    cmd = idea.exe diff $LOCAL $REMOTE
 [alias]
     d = difftool
 
@@ -22,11 +22,11 @@
 
 [merge]
     keepBackup = false;
-    tool = p4merge
+    tool = intellij
 [mergetool]
     prompt = false
-[mergetool "p4merge"]
-    cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+[mergetool "intellij"]
+    cmd = idea.exe merge $LOCAL $REMOTE $BASE $MERGED
     keepTemporaries = false
     trustExitCode = false
     keepBackup = false
